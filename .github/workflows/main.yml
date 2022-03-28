@@ -55,4 +55,4 @@ jobs:
       with:
         branch: main # The branch the action should deploy to.
         github_token: ${{ secrets.ACCESS_TOKEN }}
-        publish_dir: ./build
+        folder: build 
